@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CheckoutController extends Controller
 {
-    public function information(){
+    public function information(){ 
 
         return view('user.checkout.information');
     }
