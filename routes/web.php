@@ -74,3 +74,5 @@ Route::put('admin/users/update/{user}',[AdminUserController::class, 'update'])->
 Route::post('/admin/users/{user}/toggle', [AdminUserController::class, 'toggleActivation'])->name('admin.users.toggle');
 Route::delete('admin/users/edit/{user}',[AdminUserController::class, 'destroy'])->name('admin.users.destroy');
 });
+
+Route::get('admin/users/list',[adminUserController::class,'list'])->name('admin.users.list');
