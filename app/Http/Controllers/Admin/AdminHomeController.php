@@ -9,7 +9,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 
 class AdminHomeController extends Controller
-{
+{ 
 
     public function home()
 {
