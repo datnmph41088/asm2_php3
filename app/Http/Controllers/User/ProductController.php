@@ -9,7 +9,7 @@ use PHPUnit\Framework\MockObject\Stub\ReturnStub;
 
 class ProductController extends Controller
 {
-    //User
+    //User 
     public function index()
     {
         $categories = DB::table('categories')->get();
