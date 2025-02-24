@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class HomeController extends Controller
 {
     public function index(){
-
+ 
 
         $descProducts = DB::table('products')
             ->orderBy('id', 'desc')
