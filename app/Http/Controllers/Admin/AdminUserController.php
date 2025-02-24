@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Storage;
 
 class AdminUserController extends Controller
 {
-    public function list()
+    public function list() 
     {
         $users = User::query()
             ->paginate(5);
