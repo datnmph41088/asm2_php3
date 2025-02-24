@@ -115,7 +115,7 @@ class AdminProductController extends Controller
             // }
         } else {
             // Nếu không có ảnh mới, giữ nguyên ảnh cũ
-            $data['image'] = $old_image;
+            $data['image'] = $old_image; 
         }
 
         // Cập nhật dữ liệu của product
